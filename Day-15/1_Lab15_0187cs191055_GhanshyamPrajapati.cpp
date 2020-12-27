@@ -19,7 +19,7 @@ class Person{
             cout<<"\nName: "<<name;
         }
 };
-class Account : public  Person{
+class Account : virtual public  Person{
     public:
         float pay;
         void getPay(){
@@ -31,7 +31,7 @@ class Account : public  Person{
             cout<<"\nSalary:  "<<pay;
         }
 };
-class Admin : public Person{
+class Admin : virtual public Person{
     public:
         int experience;
         void getExp(){
