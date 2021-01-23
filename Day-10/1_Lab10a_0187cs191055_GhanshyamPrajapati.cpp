@@ -28,6 +28,7 @@ class Document : public Book
             cout<<"\nBook Name: "<<BookName;
             cout<<"\nBook Price: "<<price;
             cout<<"\nNumber of Pages: "<<NumOfPage;
+            cout<<endl;
         }
 };
 

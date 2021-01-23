@@ -10,7 +10,6 @@
 
 #include<iostream>
 #include<string.h>
-#include<conio.h>
 
 using namespace std;
 
@@ -108,17 +107,18 @@ class Result : public Exam {
             }
         }
         void Display(){
+            calculate_totalMarks();
             cout<<"\nStudent Details";
             cout<<"\nRoll Number: "<<rollno;
             cout<<"\nStudent Name: "<<name;
-            cout<<"\nObtained Marks: ";
+            cout<<"\n\nObtained Marks: ";
             cout<<"\nEnglish: "<<marks[0];
             cout<<"\nHindi: "<<marks[1];
             cout<<"\nChemistry: "<<marks[2];
             cout<<"\nPhysics: "<<marks[3];
             cout<<"\nMathematics: "<<marks[4];
             cout<<"\nOptional: "<<marks[5];
-            cout<<"\nTotal Marks: "<<total_marks<<"/600\n";
+            cout<<"\n\nTotal Marks: "<<total_marks<<"/600\n";
         }
 };
 

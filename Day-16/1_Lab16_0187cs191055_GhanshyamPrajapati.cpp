@@ -10,10 +10,10 @@ class DisplayOverloading{
             cout<<"\n1. Non-Parameterized Display Function\n";
         }
         void Display(int num){
-            cout<<"\n2. Parameterized Display funtion with Integer num; Num: "<<num<<"\n";
+            cout<<"\n2. Parameterized Display funtion with Integer num;\n Num: "<<num<<"\n";
         }
         void Display(char name[]){
-            cout<<"\n3. Parameterized Display funtion with character name; Name: "<<name<<"\n";
+            cout<<"\n3. Parameterized Display funtion with character name;\n Name: "<<name<<"\n";
         }
         void Display(int num1, float num2){
             cout<<"\n4. Integer Num1: "<<num1<<"\n";
@@ -23,10 +23,6 @@ class DisplayOverloading{
             cout<<"\n5. Float Num1: "<<num1<<"\n";
             cout<<"   Integer Num2: "<<num2<<"\n";
         }
-        // void Display()
-        // {
-            
-        // }
 };
 
 int main()

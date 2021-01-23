@@ -28,15 +28,17 @@ class Account : public Withdraw , public Deposit
 {
     int choice;
     public: 
-        int accno;
+        long int accno;
         float bal;
 
         void getData()
         {
             cout<<"\nEnter the Account Number: ";
             cin>>accno;
+            cin.ignore();
             cout<<"\nEnter the Account Balance: ";
             cin>>bal;
+            cin.ignore();
             cout<<"\nWhat you want to do? ";
             cout<<"\n 1. Deposit";
             cout<<"\n 2. Withdraw";
@@ -66,6 +68,7 @@ class Account : public Withdraw , public Deposit
             cout<<"\n       Statement\n";
             cout<<"\nAccount Number: "<<accno;
             cout<<"\nAccount balance: "<<bal;
+            cout<<endl;
         }
 };
 

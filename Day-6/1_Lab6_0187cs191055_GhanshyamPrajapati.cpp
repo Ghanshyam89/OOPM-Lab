@@ -20,7 +20,7 @@ int Fruit::num = 1;
 
 void Fruit::get_data() {
     int i;
-    cout<<"Enter the Number: ";
+    cout<<"Enter the Number of Fruits: ";
     cin>>num;
     for( i = 0; i < num; i++)
     {

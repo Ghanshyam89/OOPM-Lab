@@ -72,5 +72,6 @@ int main(){
     taxpayer1.Intax();
     cout<<"Details: ";
     taxpayer1.Outax();
+    cout<<endl;
     return 0;
 }

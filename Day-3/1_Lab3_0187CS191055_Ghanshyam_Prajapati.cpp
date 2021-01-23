@@ -20,9 +20,10 @@ class Electricity{
         void get_data()
         {
             cout<<"Enter the User's Name: ";
-            gets(name);
+            cin>>name;
             cout<<"Enter the Number of unit comsumed: ";
             cin>>noOfUnit;
+            cin.ignore();
         }
         void display()
         {

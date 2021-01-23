@@ -61,7 +61,8 @@ class Graduate : public Student{
             cout<<"\nAge: "<<age;
             cout<<"\nSubject: "<<subject;
             cout<<"\nAverage Marks: "<<avg;
-            cout<<"\n\n"<<((100*nonworking)/totalno)<<"=\% of Graduates of this year are non-working & \n"<<((100*first)/totalno)<<"\% are first divisioners.";
+            cout<<"\n\n"<<((100*nonworking)/totalno)<<"\% of Graduates of this year are non-working & \n"<<((100*first)/totalno)<<"\% are first divisioners.";
+            cout<<endl;
         }
         
 };

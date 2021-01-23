@@ -37,6 +37,7 @@ class D3  : public D1, public D2{
         void calculate(){
             total = a + b + c;
             cout<<"Total: "<<total;
+            cout<<endl;
         }
 };
 int main(){

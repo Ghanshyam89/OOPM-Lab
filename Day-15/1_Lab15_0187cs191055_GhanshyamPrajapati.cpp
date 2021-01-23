@@ -53,6 +53,7 @@ class Master : public Account, public Admin{
             Account::Display();
             Admin::Display();
             cout<<"\nCompany Name: "<<companyName;
+            cout<<endl;
         }
 };
 

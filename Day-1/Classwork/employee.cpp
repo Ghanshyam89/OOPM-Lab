@@ -16,25 +16,26 @@ class Employee
     int empSalaray;
 
     public: 
-        int getdata();
-        int display();
+        void getdata();
+        void display();
 };
 
-int Employee ::getdata()
+void Employee ::getdata()
 {
     cout<<"Enter the Id of Employee: ";
     cin>>id;
-    gets(ch);
+    // cin>>ch;
     cout<<"Enter the Name: ";
-    gets(name);
+    cin>>name;
     cout<<"Eneter the Designation: ";
-    gets(designation);
+    cin>>designation;
     cout<<"Enter the Employee Salary: ";
     cin>>empSalaray;
 } 
 
-int Employee ::display()
+void Employee ::display()
 {
+    cout<<"\nEmployee Information: \n";
     cout<<"Id: "<<id<<"\n";
     cout<<"Name: "<<name<<"\n";
     cout<<"Designation: "<<designation<<"\n";

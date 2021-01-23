@@ -45,6 +45,8 @@ int main()
     Complex r, c1(10,-9), c2(23,3);
     r.real = c1.real+c2.real;
     r.img = c1.img+c2.img;
+    cout<<endl;
     r.display_data();
+    cout<<endl;
     return 0;
 }

@@ -12,17 +12,13 @@ class Student{
     public:
     void get_data()
     {
-        char ch[2];  
-        gets(ch);
         cout<<"\n Enter the Student's Name: ";
-        gets(name);
-        // cout<<"\n Press any key \n";
-        // gets(ch);
+        cin>>name;
         cout<<" Enter the Residential Address: ";
-        gets(address);
+        cin>>address;
         cout<<" Enter the Contact Number: ";
         cin>>co_number;
-        // gets(ch);
+        cin.ignore();
 
         unique_Id++;
     }

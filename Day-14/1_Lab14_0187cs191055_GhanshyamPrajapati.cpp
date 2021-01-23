@@ -52,6 +52,7 @@ class Student : public Person{
                 cout<<"Grade: C";
             else 
                 cout<<"Grade: D";
+            cout<<endl;
         }
 };
 class Faculty : public Person{
@@ -70,6 +71,7 @@ class Faculty : public Person{
             cout<<"\nFaculty Id: "<<id;
             cout<<"\nFaculty Name: "<<name;
             cout<<"\nFaculty Salary: "<<salary;
+            cout<<endl;
         }
 };
 class Grades : public Student, public Faculty{
@@ -77,7 +79,7 @@ class Grades : public Student, public Faculty{
         char ch;
         void Display()
         {
-            cout<<"Enter \n1. For Student\n2. For Faculty";
+            cout<<"Enter the Details \n1. For Student\n2. For Faculty";
             cout<<"\nEnter the Choice: ";
             cin>>ch;
 

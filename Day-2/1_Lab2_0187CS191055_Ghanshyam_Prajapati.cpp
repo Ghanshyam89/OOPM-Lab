@@ -13,17 +13,18 @@ class Book{
 
     public:
         void get_data(){
-            
+            cout<<"\nEnter Book Details: \n";
             cout<<"\nEnter the Title:";
-            gets(title);
+            cin>>title;
             cout<<"Enter the Author name:";
-            gets(name);
+            cin>>name;
             cout<<"Enter the Price:";
             cin>>price;
-            gets(ch);
+            cin.ignore();
         }
 
         void display(){
+            cout<<"\nBook Details: \n";
             cout<<"Title: "<<title<<"\n";
             cout<<"Name: "<<name<<"\n";
             cout<<"Price: "<<price<<"\n";
